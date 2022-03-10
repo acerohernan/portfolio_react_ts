@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_react_ts/static/css/main.a3d7ae4b.css",
+    "main.css": "/portfolio_react_ts/static/css/main.982fd612.css",
     "main.js": "/portfolio_react_ts/static/js/main.0b0993e4.js",
     "static/media/delivery-app.gif": "/portfolio_react_ts/static/media/delivery-app.532371fd6db5e2dae4fc.gif",
     "static/media/code-store.gif": "/portfolio_react_ts/static/media/code-store.3244f7af6f459c6f4211.gif",
@@ -37,11 +37,11 @@
     "static/media/skype.png": "/portfolio_react_ts/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/portfolio_react_ts/index.html",
     "static/media/circle.svg": "/portfolio_react_ts/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
-    "main.a3d7ae4b.css.map": "/portfolio_react_ts/static/css/main.a3d7ae4b.css.map",
+    "main.982fd612.css.map": "/portfolio_react_ts/static/css/main.982fd612.css.map",
     "main.0b0993e4.js.map": "/portfolio_react_ts/static/js/main.0b0993e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d7ae4b.css",
+    "static/css/main.982fd612.css",
     "static/js/main.0b0993e4.js"
   ]
 }
