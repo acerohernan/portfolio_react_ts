@@ -98,8 +98,8 @@ export const projects = [
     title: "Delivery App",
     description:
       "A delivery app made with React Native, Typescript, Redux, Expo, NodeJS, Express, MongoDB",
-    projectLink: "https://acerohernan.github.io/code-store/",
-    codeLink: "https://github.com/acerohernan/code-store",
+    projectLink: "https://expo.dev/@acerohernan/deliveryApp",
+    codeLink: "https://github.com/acerohernan/delivery-app-react-native",
     tags: ["ReactJS", "Mobile"],
   },
   {
@@ -108,8 +108,8 @@ export const projects = [
     title: "Tinder Dogs",
     description:
       "An tinder clon made with ReactJS, SASS, Redux, NodeJS, Express and MongoDB",
-    projectLink: "https://acerohernan.github.io/code-store/",
-    codeLink: "https://github.com/acerohernan/code-store",
+    projectLink: "https://acerohernan.github.io/hot-dogs",
+    codeLink: "https://github.com/acerohernan/hot-dogs",
     tags: ["ReactJS", "Web"],
   },
   {
