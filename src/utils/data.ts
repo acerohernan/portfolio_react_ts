@@ -83,13 +83,13 @@ export const experiences = [
 
 export const projects = [
   {
-    imgUrl: images.code_store,
-    name: "code-store",
-    title: "Code Store",
+    imgUrl: images.hernan_store,
+    name: "hernan-store",
+    title: "Hernan Store",
     description:
       "An store made with ReactJS, Typescript, SASS, Redux, NodeJS, Express and MongoDB",
-    projectLink: "https://acerohernan.github.io/code-store/",
-    codeLink: "https://github.com/acerohernan/code-store",
+    projectLink: "https://store-react-ts.herokuapp.com/",
+    codeLink: "https://github.com/acerohernan/store_react_ts",
     tags: ["ReactJS", "Web"],
   },
   {
@@ -98,7 +98,7 @@ export const projects = [
     title: "Delivery App",
     description:
       "A delivery app made with React Native, Typescript, Redux, Expo, NodeJS, Express, MongoDB",
-    projectLink: "https://expo.dev/@acerohernan/deliveryApp",
+    projectLink: "https://delivery-app-by-hernan.uptodown.com/android",
     codeLink: "https://github.com/acerohernan/delivery-app-react-native",
     tags: ["ReactJS", "Mobile"],
   },
@@ -114,13 +114,13 @@ export const projects = [
   },
   {
     imgUrl: images.code_store,
-    name: "photo-up",
-    title: "Photo Up",
+    name: "code-store",
+    title: "Code Store",
     description:
-      "An social media clon made with AngularJS, SASS, NodeJS, Express and MongoDB",
+      "An store made with ReactJS, Typescript, SASS, Redux, NodeJS, Express and MongoDB",
     projectLink: "https://acerohernan.github.io/code-store/",
     codeLink: "https://github.com/acerohernan/code-store",
-    tags: ["AngularJS", "Web"],
+    tags: ["ReactJS", "Web"],
   },
 ];
 

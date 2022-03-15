@@ -45,6 +45,7 @@ import whatsapp from "../assets/whatsapp.png";
 import code_store from "../assets/projects/code-store.gif";
 import tinder_dogs from "../assets/projects/tinder-dogs.gif";
 import delivery_app from "../assets/projects/delivery-app.gif";
+import hernan_store from "../assets/projects/hernan-store.gif";
 
 export default {
   email,
@@ -90,4 +91,5 @@ export default {
   code_store,
   tinder_dogs,
   delivery_app,
+  hernan_store,
 };
