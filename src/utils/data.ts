@@ -69,16 +69,30 @@ export const experiences = [
     year: "2021 - 2022",
     works: [
       {
-        name: "React Developer",
+        name: "Full Stack Developer",
         company: "Chamorro Solutions S.A.C",
         desc: [
           "Diseño de Wireframes y Maquetación de aplicaciones web solicitadas mediante Figma.",
-          "Creación de paneles administrativos con ReactJS(Typescript), un estado manejado por Redux, estilos con SASS y conección a API REST creado en PHP y Laravel.",
+          "Creación de paneles administrativos con ReactJS(Typescript), un estado manejado por Redux, estilos con SASS y conección a API REST creado en NodeJs, Express y MySQL.",
           "Optimización y mantenimiento de Web Apps realizadas en ReactJS para evitar renderizaciones obsoletas.",
         ],
       },
     ],
   },
+  {
+    year: "2022 - 2022",
+    works: [
+      {
+        name: "Full Stack Developer",
+        company: "Atik Soluciones S.A",
+        desc: [
+          "Desarrollo de nuevas funcionalidades para el sistema en Frontend con ReactJs y por el lado del Backend con NodeJs, Express y MySQL. ",
+          "Detección y solución de errores en la parte contable del sistema.",
+          "Optimización de la aplicación en temas de performance."
+        ],
+      },
+    ],
+  }
 ];
 
 export const projects = [
@@ -129,7 +143,7 @@ export const abouts = [
     title: "Hi, I'm Hernan",
     imgUrl: images.profile,
     desc: [
-      "I am a Frontend Developer, specialized in the Javascript language and passionate about React features. I have 1 year of professional experience working with ReactJS and integrating it with REST API's built in PHP-Laravel and NodeJS-Express. You can see some of my work below.",
+      "I am a Full Stack Developer, specialized in the Javascript language and passionate about React and NodeJS features. I have more than 1 year of professional experience working with ReactJS and integrating it with REST API's built in NodeJS-Express and PHP-Laravel. You can see some of my work below.",
       "I am interested in job opportunities where I can contribute, learn and grow at the same time. Regarding soft skills, I am communicative and have no problems with teamwork. If you have any opportunity for me, do not hesitate to contact me.",
     ],
   },
