@@ -31,11 +31,11 @@
     This is mi portfolio's repository.
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View demo</a>
+    <a href="https://acerohernan.github.io/portfolio_react_ts/">View demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Whastapp</a>
+    <a href="https://api.whatsapp.com/send?phone=51999113934&text=Hola%20Hernan!%20%F0%9F%98%83">Whastapp</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Email</a>
+    <a href="mailto:contacto.acero.hernan@gmail.com">Email</a>
   </p>
 </div>
 
