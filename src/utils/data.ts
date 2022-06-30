@@ -2,10 +2,6 @@ import { images } from "../constants";
 
 export const skills = [
   {
-    name: "Figma",
-    icon: images.figma,
-  },
-  {
     name: "HTML",
     icon: images.html,
   },
@@ -62,14 +58,31 @@ export const skills = [
     name: "MySQL",
     icon: images.mysql,
   },
+  {
+    name: "PostgreSQL",
+    icon: images.postgresql,
+  },
 ];
 
 export const experiences = [
   {
+    year: "2020 - 2021",
+    works: [
+      {
+        name: "Frontend Developer | ReactJS Developer | VueJS Developer",
+        company: "Autónomo",
+        desc: [
+          "Maquetación de landing pages construidos con HTML, SASS y Javascript.",
+          "Maquetación de paneles administrativos con ReactJS, VueJS, SASS y Bootstrap (Frontend)."
+        ],
+      },
+    ],
+  },  
+  {
     year: "2021 - 2022",
     works: [
       {
-        name: "Full Stack Developer",
+        name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
         company: "Chamorro Solutions S.A.C",
         desc: [
           "Diseño de Wireframes y Maquetación de aplicaciones web solicitadas mediante Figma.",
@@ -83,10 +96,11 @@ export const experiences = [
     year: "2022 - 2022",
     works: [
       {
-        name: "Full Stack Developer",
+        name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
         company: "Atik Soluciones S.A",
         desc: [
-          "Desarrollo de nuevas funcionalidades para el sistema en Frontend con ReactJs y por el lado del Backend con NodeJs, Express y MySQL. ",
+          "Adición de facturación integrada para un software contable y de administración construido en ReactJS y NodeJS.",
+          "Desarrollo de nuevas funcionalidades para el sistema en Frontend con ReactJs, Bootstrap, y por el lado del Backend, con NodeJs, Express y MySQL.",
           "Detección y solución de errores en la parte contable del sistema.",
           "Optimización de la aplicación en temas de performance."
         ],
