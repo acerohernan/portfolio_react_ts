@@ -1,11 +1,13 @@
 import { images } from "../constants";
-import { AppWrap, MotionWrap } from "../wrapper";
+import { useTranslation } from "../i18n/context";
 import "../styles/container/footer.scss";
+import { AppWrap, MotionWrap } from "../wrapper";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <>
-      <h2 className="head-text">Contact Me</h2>
+      <h2 className="head-text">{t("Contact Me")}</h2>
       <div className="app__footer-cards">
         <a className="app__footer-card" href="tel:+51999113934">
           <img src={images.mobile} alt="phone" />

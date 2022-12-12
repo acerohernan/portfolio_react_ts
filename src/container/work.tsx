@@ -1,10 +1,11 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
-import { motion } from "framer-motion";
+import { useTranslation } from "../i18n/context";
 
-import { AppWrap, MotionWrap } from "../wrapper";
 import "../styles/container/work.scss";
 import { projects } from "../utils/data";
+import { AppWrap, MotionWrap } from "../wrapper";
 
 const Work = () => {
   const [works, setWorks] = useState(projects);
@@ -27,11 +28,11 @@ const Work = () => {
     }, 500);
   };
 
+  const { t } = useTranslation();
+
   return (
     <>
-      <h2 className="head-text">
-        My <span>Projects</span>
-      </h2>
+      <h2 className="head-text">{t("My Projects")}</h2>
 
       <div className="app__work-filter">
         {["All", "Web", "Mobile"].map((item, index) => (
@@ -42,7 +43,7 @@ const Work = () => {
               activeFilter === item ? "item-active" : ""
             }`}
           >
-            {item}
+            {t(item)}
           </div>
         ))}
       </div>
@@ -92,7 +93,7 @@ const Work = () => {
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>
-                {work.description}
+                {t(work.description)}
               </p>
 
               <div className="app__work-tag app__flex">

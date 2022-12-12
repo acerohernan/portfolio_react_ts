@@ -30,14 +30,9 @@ export const skills = [
     icon: images.redux,
   },
   {
-    name: "Vue",
-    icon: images.vue,
+    name: "NextJS",
+    icon: images.next,
   },
-  {
-    name: "Angular",
-    icon: images.angular,
-  },
-
   {
     name: "NodeJS",
     icon: images.node,
@@ -47,8 +42,8 @@ export const skills = [
     icon: images.express,
   },
   {
-    name: "NextJS",
-    icon: images.next,
+    name: "NestJS",
+    icon: images.nestjs,
   },
   {
     name: "MongoDB",
@@ -59,57 +54,82 @@ export const skills = [
     icon: images.mysql,
   },
   {
+    name: "SQLServer",
+    icon: images.sqlserver,
+  },
+  {
     name: "PostgreSQL",
     icon: images.postgresql,
+  },
+  {
+    name: "Docker",
+    icon: images.docker,
+  },
+  {
+    name: "AWS",
+    icon: images.aws,
+  },
+  {
+    name: "Google Cloud",
+    icon: images.googlecloud,
   },
 ];
 
 export const experiences = [
   {
-    year: "2020 - 2021",
-    works: [
-      {
-        name: "Frontend Developer | ReactJS Developer | VueJS Developer",
-        company: "Autónomo",
-        desc: [
-          "Maquetación de landing pages construidos con HTML, SASS y Javascript.",
-          "Maquetación de paneles administrativos con ReactJS, VueJS, SASS y Bootstrap (Frontend)."
-        ],
-      },
-    ],
-  },  
-  {
-    year: "2021 - 2022",
-    works: [
-      {
-        name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
-        company: "Chamorro Solutions S.A.C",
-        desc: [
-          "Diseño de Wireframes y Maquetación de aplicaciones web solicitadas mediante Figma.",
-          "Creación de paneles administrativos con ReactJS(Typescript), un estado manejado por Redux, estilos con SASS y conección a API REST creado en NodeJs, Express y MySQL.",
-          "Optimización y mantenimiento de Web Apps realizadas en ReactJS para evitar renderizaciones obsoletas.",
-        ],
-      },
-    ],
-  },
-  {
-    year: "2022 - 2022",
+    year: "Mar 2022 - Dec 2022",
     works: [
       {
         name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
         company: "Atik Soluciones S.A",
         desc: [
-          "Adición de facturación integrada para un software contable y de administración construido en ReactJS y NodeJS.",
-          "Desarrollo de nuevas funcionalidades para el sistema en Frontend con ReactJs, Bootstrap, y por el lado del Backend, con NodeJs, Express y MySQL.",
-          "Detección y solución de errores en la parte contable del sistema.",
-          "Optimización de la aplicación en temas de performance."
+          "Integrated billing addition for an accounting and management software built on ReactJS and NodeJS.",
+          "Development of new functionalities for the system in Frontend with ReactJs, Bootstrap, and on the Backend side, with NodeJs, Express and MySQL.",
+          "Detection and solution of errors in the accounting part of the system.",
+          "Optimization of the application in performance issues.",
         ],
       },
     ],
-  }
+  },
+  {
+    year: "Jan 2021 - Feb 2022",
+    works: [
+      {
+        name: "Full Stack Developer | ReactJS Developer | NodeJS Developer",
+        company: "Chamorro Solutions S.A.C",
+        desc: [
+          "Creation of administrative panels with ReactJS and Typescript, a state managed by Redux, styles with SASS and connection to REST API created in NodeJs, Express and MySQL.",
+          "Optimization and maintenance of Web Apps made in ReactJS to avoid obsolete renderings.",
+        ],
+      },
+    ],
+  },
+  {
+    year: "Sep 2020 - Jan 2021",
+    works: [
+      {
+        name: "Frontend Developer | ReactJS Developer | VueJS Developer",
+        company: "Autónomo",
+        desc: [
+          "Landing page layout built with HTML, SASS and Javascript.",
+          "Design of administrative panels with ReactJS, VueJS, SASS and Bootstrap (Frontend).",
+        ],
+      },
+    ],
+  },
 ];
 
 export const projects = [
+  {
+    imgUrl: images.mitienda,
+    name: "mitienda-app",
+    title: "MiTienda",
+    description:
+      "An application to create your own store made with NextJS,Typescript, TailwindCSS, NodeJS, ExpressJS, Docker and PostgreSQL",
+    projectLink: "https://mitienda-frontend.vercel.app",
+    codeLink: "https://github.com/acerohernan/mitienda-frontend",
+    tags: ["ReactJS", "Web"],
+  },
   {
     imgUrl: images.hernan_store,
     name: "hernan-store",
@@ -157,7 +177,7 @@ export const abouts = [
     title: "Hi, I'm Hernan",
     imgUrl: images.profile,
     desc: [
-      "I am a Full Stack Developer, specialized in the Javascript language and passionate about React and NodeJS features. I have more than 1 year of professional experience working with ReactJS and integrating it with REST API's built in NodeJS-Express and PHP-Laravel. You can see some of my work below.",
+      "I am a Full Stack Developer, specialized in the Javascript language and passionate about React and NodeJS features. I have more than 2 years of professional experience working with tecnologies like ReactJS, NextJS in the frontend and NodeJS, ExpressJS, Docker, PostgreSQL, MySQL, SQLServer, MongoDB, AWS and Google Cloud in the backend. You can see some of my work below.",
       "I am interested in job opportunities where I can contribute, learn and grow at the same time. Regarding soft skills, I am communicative and have no problems with teamwork. If you have any opportunity for me, do not hesitate to contact me.",
     ],
   },
